@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#dask stuff
+app/dask_worker_space/
+.ipynb_checkpoints

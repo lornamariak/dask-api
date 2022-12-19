@@ -1,0 +1,11 @@
+
+
+install:
+	pip install --upgrade pip &&\
+		pip install -r Requirements.txt
+
+format:	
+	black *.py 
+
+test: 
+	python -m pytest -vv --cov=mylib --cov=main test.py
